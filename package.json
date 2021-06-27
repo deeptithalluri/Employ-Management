@@ -1,0 +1,14 @@
+{
+  "name": "assign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "(cd backend && yarn start) & (cd frontend && yarn start)",
+    "install": "(cd backend && yarn install) & (cd frontend && yarn install)",
+    "format": "(cd backend && yarn format) & (cd frontend && yarn format)",
+    "backend-setup": "(cd backend && yarn init-db)"
+  },
+  "author": "",
+  "license": "ISC"
+}
